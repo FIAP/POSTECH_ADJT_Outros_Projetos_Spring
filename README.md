@@ -11,7 +11,7 @@ Repositório da disciplina <b>Outros Projetos Spring</b> do curso Pós Tech em A
 
 ### AULAS:
 
-1. Spring Batch
-2. Spring Integration
-3. Spring Cloud
-4. Spring Data
+1. Spring Cloud
+2. Spring Batch
+3. Spring Data
+4. Spring Integration
