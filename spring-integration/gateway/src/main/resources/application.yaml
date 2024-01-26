@@ -1,0 +1,26 @@
+#server:
+#  port: 8080
+#
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: estoque-block
+#          predicates:
+#            - Path=/estoque/remova-estoque
+#          uri: no://op
+#          order: 0
+#        - id: estoque
+#          uri: http://localhost:8081
+#          predicates:
+#            - Path=/estoque/**
+#          filters:
+#            - StripPrefix=1
+#        - id: pedidos
+#          uri:
+#            http://localhost:8082
+#          predicates:
+#            - Path=/pedidos/**
+#          filters:
+#            - StripPrefix=1
+#
